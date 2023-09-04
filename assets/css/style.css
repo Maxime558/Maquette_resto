@@ -1,0 +1,32 @@
+/* Pour appeler l'id logo j'utilise le selecteur id# et son nom logo */
+
+#logo {
+  color: red;
+}
+
+/* Pour appeler un element HTML dans un selecteur j'utilise son nom */
+nav {
+  display: flex;
+  /* Pour gerer l'aglignement vertical des enfants de ma nav j'utilise align-items: ; */
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+/* n'est pas utile car applicable à ul
+li{
+    list-style-type: none;
+} */
+
+li {
+  padding: 16px;
+}
+#img-header {
+  background-image: url(../img/hamburger.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
