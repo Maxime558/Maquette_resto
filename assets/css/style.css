@@ -85,7 +85,6 @@ Section About */
 /* Pour appeler des elements enfants (que ceux à l'interieur d'un parent) j'appelle en premier le parent puis un espace puis ses enfants */
 
 #section1 div {
-  border: 1px red solid;
   width: 47%;
 }
 #about #h2,
@@ -109,12 +108,38 @@ Section About */
   text-align: center;
 }
 #p1 {
-  font-weight: 600;
+  font-weight: 500;
   margin: 4rem 0;
   text-align: center;
+  line-height: 2rem;
 }
 #p2 {
   margin: 4rem 0;
   font-weight: 200;
   text-align: center;
+  line-height: 2rem;
+}
+
+/*Section 2 */
+
+#section2 {
+border: 1px red solid;
+justify-content: space-between;
+display: flex;
+margin: 2rem 18rem;
+}
+
+#divTitre h2{
+  font-size: 3rem;
+  text-align: center;
+  
+}
+#divTitre h3{
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin: 3rem 0;
+  text-align: left;
+}
+#divTitre p {
+  font-weight: 200;
 }
