@@ -123,17 +123,16 @@ Section About */
 /*Section 2 */
 
 #section2 {
-justify-content: space-between;
-display: flex;
-margin: 2rem 18rem;
+  justify-content: space-between;
+  display: flex;
+  margin: 2rem 18rem;
 }
 
-#divTitre h2{
+#divTitre h2 {
   font-size: 3rem;
   text-align: center;
-  
 }
-#divTitre h3{
+#divTitre h3 {
   letter-spacing: 4px;
   font-weight: 600;
   margin: 3rem 0;
@@ -146,13 +145,29 @@ margin: 2rem 18rem;
 /*Section Contact */
 
 #contact {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: start;
 }
+
+#contactP1 {
+  margin: 3rem 0;
+}
+
 #contactP2 {
-  color: rgb(100, 100, 100);
+  color: rgb(56, 140, 155);
+  margin: 3rem 0;
+  font-size: 1.5rem;
 }
+
+#contactP3 {
+  margin: 3rem 0;
+}
+
 #contact h2 {
   letter-spacing: 4px;
+  line-height: 2rem;
   font-weight: 600;
+  font-size: 2rem;
   margin: 3rem 0;
 }
