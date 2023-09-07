@@ -10,6 +10,9 @@
   margin: 0;
   padding: 0;
   font-family: "playfairDR", serif;
+  img {
+    width: 100%;
+  }
 }
 /* Pour appeler l'id logo j'utilise le selecteur id# et son nom logo */
 
@@ -67,4 +70,51 @@ h1 {
   padding: 1rem;
   font-family: "playfairDR";
   font-weight: 400;
+}
+
+/* MAIN
+Section About */
+
+#section1 {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 2rem auto;
+}
+
+/* Pour appeler des elements enfants (que ceux à l'interieur d'un parent) j'appelle en premier le parent puis un espace puis ses enfants */
+
+#section1 div {
+  border: 1px red solid;
+  width: 47%;
+}
+#about #h2,
+#about #h3 {
+  text-align: center;
+}
+#section1 span {
+  background-color: rgba(211, 211, 211, 0.651);
+}
+#section1 h2 {
+  letter-spacing: 4px;
+  font-weight: 400;
+  margin: 4rem 0;
+  text-align: center;
+}
+
+#section1 h3 {
+  letter-spacing: 4px;
+  font-weight: 200;
+  margin: 4rem 0;
+  text-align: center;
+}
+#p1 {
+  font-weight: 600;
+  margin: 4rem 0;
+  text-align: center;
+}
+#p2 {
+  margin: 4rem 0;
+  font-weight: 200;
+  text-align: center;
 }
