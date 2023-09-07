@@ -1,7 +1,22 @@
+/* Importation des fonts */
+@font-face {
+  /* Creation d'un alias */
+  font-family: "playfairDR";
+  src: url(../font/PlayfairDisplay-Regular.ttf);
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "playfairDR", serif;
+}
 /* Pour appeler l'id logo j'utilise le selecteur id# et son nom logo */
 
 #logo {
-  color: red;
+  padding: 1rem;
+  letter-spacing: 0.3rem;
+  font-weight: 600;
 }
 
 /* Pour appeler un element HTML dans un selecteur j'utilise son nom */
@@ -10,6 +25,16 @@ nav {
   /* Pour gerer l'aglignement vertical des enfants de ma nav j'utilise align-items: ; */
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0px 10px 5px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 10px 5px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 5px -9px rgba(0, 0, 0, 0.75);
+  background-color: rgba(255, 255, 255, 0.863);
+  /* Le z index ne fonctionne pas avec une postion statique(Position par défaut) */
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 55px;
 }
 ul {
   display: flex;
@@ -33,4 +58,9 @@ li {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
+  margin-top: 55px;
+}
+h1 {
+  padding: 1rem;
+  font-family: "playfairDR";
 }
