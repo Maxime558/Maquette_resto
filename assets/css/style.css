@@ -178,9 +178,9 @@ width : 50px;
   font-size: 2rem;
   margin: 3rem 0;
 }
-
 #contact input{
-  border-bottom: 0.5 solid gray;
+  border: none;
+  border-bottom: 0.5px solid grey;
   padding: 0.5rem;
   margin: 0.5rem 0;
 }
